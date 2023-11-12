@@ -1,0 +1,52 @@
+
+/* Table Container style here */
+.table-main{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    
+}
+ 
+/* Table Styles here  */
+table{
+    margin-top: 30px;
+}
+
+/* Table header and table data style here */
+table, th, td{
+    border-collapse: collapse;
+    padding: 15px;
+    border: 1px solid #8cb0d3;
+
+}
+
+/* Table header background */
+th{
+    background-color: #6a6abe;
+    color: #fff;
+}
+
+/* Caption styles here */
+caption{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana,;
+    font-weight: bold;
+    color: #6a6abe;
+
+
+}
+
+/* Style table rows here */
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.299);
+}
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+/* apply hover to table rows */
+tr:hover{
+    background-color: #6a6abe;
+    color: #fff;
+}
