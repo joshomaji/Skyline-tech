@@ -1,0 +1,74 @@
+
+/* Styling Table Div Starts */
+.table-main{
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    
+}
+ 
+table{
+    margin-top: 30px;
+}
+
+/* Table Header and Table Data styles here */
+table, th, td{
+    border-collapse: collapse;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+
+}
+
+/* Table Header Background color */
+th{
+    background-color: #6a6abe;
+    color: #fff;
+}
+
+/* Font awesome styles here for grade */
+.good{
+background-color: green;
+color: #fff; 
+padding: 2px; 
+border-radius: 4px;
+}
+
+.exce{
+    color: #6a6abe;
+    padding: 2px;
+    font-size: 20px;
+}
+
+/* Caption styles here */
+caption{
+    font-size: 40px;
+    color: #6a6abe;
+
+}
+.grade1{
+    background-color: #6a6abe;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+
+.fail{
+    color: #ff0000;
+    background-color: green;
+    padding: 2px;
+    border-radius: 3px;
+    /* font-size: 10px; */
+}
+
+tr:hover{
+    background-color: #6a6abe;
+    color: #fff;
+}
+tr:nth-child(even){
+    background-color: beige;
+}
+
+tr:nth-child(even):hover {
+    background-color: #eaea42;
+    color: #000;
+}
